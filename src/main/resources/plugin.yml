@@ -1,0 +1,18 @@
+name: AstralBillford
+version: '2.0.0'
+main: com.magicsmp.billford.BillfordPlugin
+api-version: '1.21'
+author: MagicSMP
+description: Rotating Billford trades with a live reset timer
+softdepend: [PlaceholderAPI]
+commands:
+  billford:
+    description: Open the Billford trade menu
+    usage: /billford [reload|settime|trade]
+    aliases: [astralbillford, bf]
+    permission: astralbillford.use
+permissions:
+  astralbillford.use:
+    default: true
+  astralbillford.admin:
+    default: op
